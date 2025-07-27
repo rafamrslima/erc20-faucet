@@ -30,7 +30,13 @@ A simple ERC-20 token faucet built with Node.js, Express, and ethers.js.
    TOKEN_ADDRESS=your_erc20_token_address
    PORT=3000 # optional, defaults to 3000
    ```
-4. Start the server:
+
+4. Build the project (optional, if you want to compile without starting):
+   ```sh
+   npm run build
+   ```
+
+5. Start the server (this will build and run from `dist/server.js`):
    ```sh
    npm start
    ```
